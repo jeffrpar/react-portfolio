@@ -1,0 +1,52 @@
+.resume {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .resume-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .proficiencies {
+    margin-bottom: 30px;
+  }
+  
+  .proficiencies h3,
+  .resume-download h3 {
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .resume-download a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .resume-download a:hover {
+    background-color: #0056b3;
+  }
+  
