@@ -12,6 +12,15 @@ function Resume() {
             <li>Web Development (HTML, CSS, JavaScript)</li>
           </ul>
         </div>
+        <div className="resume-download">
+          <h3>Download My Resume</h3>
+          <p>
+            You can download my resume in PDF format to learn more about my skills and experience.
+          </p>
+          <a href="" download>
+            Download Resume (PDF)
+          </a>
+        </div>
       </div>
     </section>
   );
