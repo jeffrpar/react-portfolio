@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header activeSection={activeSection} onSectionChange={handleSectionChange} />
 
       {/* Conditionally render the selected Main component */}
       {activeSection === 'About' && <About />}

@@ -7,8 +7,8 @@ function About() {
       <div className="about-content">
         {/* Add your photo or avatar here */}
         <img
-          src="your-photo-url.jpg"
-          alt="Your Name"
+          src="../../../assets/images/headshot-garden.jpg"
+          alt="Jeff Parker"
           className="about-photo"
         />
 

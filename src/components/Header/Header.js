@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css'; // Import your CSS file for styling
 import Nav from '../Nav/Nav'; // Import the Nav component
 
-function Header() {
+function Header({ onSectionChange }) {
   return (
     <header className="header">
       <div className="header-content">
@@ -10,7 +10,7 @@ function Header() {
           <h1>Your Name</h1>
         </div>
         <div className="header-right">
-          <Nav />
+          <Nav onSectionChange={onSectionChange} /> {/* Pass the prop here */}
         </div>
       </div>
     </header>
