@@ -7,7 +7,7 @@ function Header({ onSectionChange }) {
     <header className="header">
       <div className="header-content">
         <div className="header-left">
-          <h1>Your Name</h1>
+          <h1>Jeff Parker</h1>
         </div>
         <div className="header-right">
           <Nav onSectionChange={onSectionChange} /> {/* Pass the prop here */}

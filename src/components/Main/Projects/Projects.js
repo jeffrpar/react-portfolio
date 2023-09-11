@@ -2,7 +2,6 @@ import React from 'react';
 import './Projects.css'; // Import your CSS file for styling
 
 function Projects() {
-  // Sample project data (you can replace this with your actual project data)
   const projects = [
     {
       title: 'Project 1',
@@ -16,7 +15,30 @@ function Projects() {
       demoLink: 'https://project2-demo.com',
       repoLink: 'https://github.com/yourusername/project2',
     },
-    // Add more project objects as needed
+    {
+      title: 'Project 3',
+      description: 'Description of Project 3.',
+      demoLink: 'https://project3-demo.com',
+      repoLink: 'https://github.com/yourusername/project3',
+    },
+    {
+      title: 'Project 4',
+      description: 'Description of Project 4.',
+      demoLink: 'https://project4-demo.com',
+      repoLink: 'https://github.com/yourusername/project4',
+    },
+    {
+      title: 'Project 5',
+      description: 'Description of Project 5.',
+      demoLink: 'https://project5-demo.com',
+      repoLink: 'https://github.com/yourusername/project5',
+    },
+    {
+      title: 'Project 6',
+      description: 'Description of Project 6.',
+      demoLink: 'https://project6-demo.com',
+      repoLink: 'https://github.com/yourusername/project6',
+    },
   ];
 
   return (
