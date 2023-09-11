@@ -6,9 +6,12 @@ function Header() {
   return (
     <header className="header">
       <div className="header-content">
-        <h1>Jeff Parker</h1>
-        {/* Render the Nav component */}
-        <Nav />
+        <div className="header-left">
+          <h1>Your Name</h1>
+        </div>
+        <div className="header-right">
+          <Nav />
+        </div>
       </div>
     </header>
   );
