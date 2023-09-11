@@ -10,6 +10,15 @@ function Nav(props) {
         <li className={`nav-item ${activeSection === 'About' ? 'active' : ''}`}>
           <button onClick={() => onSectionChange('About')}>About Me</button>
         </li>
+        <li className={`nav-item ${activeSection === 'Projects' ? 'active' : ''}`}>
+          <button onClick={() => onSectionChange('Projects')}>Portfolio</button>
+        </li>
+        <li className={`nav-item ${activeSection === 'Contact' ? 'active' : ''}`}>
+          <button onClick={() => onSectionChange('Contact')}>Contact</button>
+        </li>
+        <li className={`nav-item ${activeSection === 'Resume' ? 'active' : ''}`}>
+          <button onClick={() => onSectionChange('Resume')}>Resume</button>
+        </li>
       </ul>
     </nav>
   );
