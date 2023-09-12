@@ -10,11 +10,11 @@ function Footer() {
           <a href="https://github.com/jeffrpar" target="_blank" rel="noopener noreferrer">
             <FaGithub /> GitHub
           </a>
-          <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jeffrpar/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
           </a>
           <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer">
-            <FaTwitter /> Twitter
+            <FaTwitter /> Twitter {/*I don't have a third platform*/}
           </a>
         </div>
       </div>
