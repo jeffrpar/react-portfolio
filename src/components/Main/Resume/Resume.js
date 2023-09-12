@@ -17,7 +17,7 @@ function Resume() {
           <p>
             You can download my resume in PDF format to learn more about my skills and experience.
           </p>
-          <a href="https://docs.google.com/document/d/1lo5R7NQBDNkYIFoa2cilkAffIlHG1te5ZUR8IClDqWg/edit?usp=sharing" download>
+          <a href="https://docs.google.com/document/d/1lo5R7NQBDNkYIFoa2cilkAffIlHG1te5ZUR8IClDqWg/edit?usp=sharing" target="_blank">
             Download Resume (PDF)
           </a>
         </div>
