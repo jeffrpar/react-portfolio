@@ -1,5 +1,11 @@
 import React from 'react';
 import './Projects.css'; // Import your CSS file for styling
+import bookImg from '../../../assets/images/book-review.JPG';
+import textEditorImg from '../../../assets/images/text-editor.JPG';
+import moviesImg from '../../../assets/images/movies.JPG';
+import socialNetworkImg from '../../../assets/images/social-network-api.JPG';
+import quizImg from '../../../assets/images/quiz-app.JPG';
+import ecommerceImg from '../../../assets/images/ecommerce.JPG';
 
 function Projects() {
   const projects = [
