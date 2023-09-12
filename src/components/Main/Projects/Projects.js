@@ -11,7 +11,7 @@ function Projects() {
     },
     {
       title: 'Text Editor',
-      description: 'A Progressive Web Application text editor app.',
+      description: 'A Progressive Web Application text editor. This text editor connects to an IndexedDB, and can be installed and used offline.',
       demoLink: 'https://text-editor-utsa-61be1b363975.herokuapp.com/',
       repoLink: 'https://github.com/jeffrpar/pwa-text-editor',
     },
@@ -34,10 +34,10 @@ function Projects() {
       repoLink: 'https://github.com/yourusername/project5',
     },
     {
-      title: 'Project 6',
-      description: 'Description of Project 6.',
-      demoLink: 'https://project6-demo.com',
-      repoLink: 'https://github.com/yourusername/project6',
+      title: 'E-Commerce Back End',
+      description: 'This project uses MySQL and Sequelize to create the back end of an e-commerce site. This can be used to show information about products and track inventory.',
+      demoLink: 'https://github.com/jeffrpar/ecommerce-back-end',
+      repoLink: 'https://github.com/jeffrpar/ecommerce-back-end',
     },
   ];
 
