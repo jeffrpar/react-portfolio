@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css"; // Import your CSS file for styling
+import myImage from '../../../assets/images/headshot.jpg';
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <div className="about-content">
         {/* Add your photo or avatar here */}
         <img
-          src="../../../assets/images/headshot.jpg"
+          src={myImage}
           alt="Jeff Parker"
           className="about-photo"
         />
