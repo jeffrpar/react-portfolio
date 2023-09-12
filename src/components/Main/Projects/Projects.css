@@ -1,60 +1,55 @@
-/* Projects.css */
+h2 {
+  text-align: center;
+}
 
-.projects {
-    background-color: #f9f9f9;
-    padding: 40px 0;
-    text-align: center;
-  }
-  
-  .projects-content {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .project-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  flex: 0 1 calc(33.33% - 20px); /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.project img {
+  max-width: 100%; /* Make sure the image doesn't exceed its parent container */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Add space between the image and project title */
+}
+
+.project h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+}
+
+.project-links {
+  margin-top: 15px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Add a media query for smaller screens */
+@media (max-width: 767px) {
   .project {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px;
-    width: 300px;
-    text-align: left;
+    flex: 0 1 calc(100% - 20px); /* Full width on smaller screens */
+    margin-right: 0; /* Remove right margin to stack them vertically */
   }
-  
-  h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 16px;
-    color: #666;
-  }
-  
-  .project-links {
-    margin-top: 20px;
-  }
-  
-  .project-links a {
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .project-links a:hover {
-    color: #007bff;
-  }
-  
+}
