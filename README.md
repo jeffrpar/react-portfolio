@@ -1,5 +1,7 @@
 # React-Portfolio
 
+![Portfolio Screenshot](./src/assets/images/about-screen.JPG)
+
 ## Description
 
 Welcome to my React portfolio! This single-page web application showcases my journey as an web developer. Upon loading the portfolio, you'll find a clean and user-friendly interface featuring a header, a content section with different sections like About Me, Portfolio, Contact, and Resume, and a footer with links to my social profiles. The navigation bar at the top allows you to seamlessly explore my portfolio's various sections, from learning about my background in the 'About Me' section to viewing a collection of my projects in 'Portfolio,' reaching out to me via the 'Contact' form, or accessing my resume. With a focus on responsiveness and a mobile-first design, my portfolio is accessible and informative across different devices.
