@@ -10,6 +10,12 @@ function Resume() {
           <h3>Proficiencies</h3>
           <ul>
             <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Frontend Frameworks (React)</li>
+            <li>Backend Technologies (Node.js, Express)</li>
+            <li>Database Management (MySQL, MongoDB)</li>
+            <li>Version Control (Git, GitHub)</li>
+            <li>Responsive Web Design</li>
+            <li>UI/UX Design Principles</li>
           </ul>
         </div>
         <div className="resume-download">
@@ -19,6 +25,7 @@ function Resume() {
           </p>
           <a href="https://docs.google.com/document/d/1lo5R7NQBDNkYIFoa2cilkAffIlHG1te5ZUR8IClDqWg/edit?usp=sharing" target="_blank">
             Download Resume (PDF)
+            {/*Still working on my developer resume*/}
           </a>
         </div>
       </div>
