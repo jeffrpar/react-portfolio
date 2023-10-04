@@ -6,9 +6,17 @@ import moviesImg from '../../../assets/images/movies.JPG';
 import socialNetworkImg from '../../../assets/images/social-network-api.JPG';
 import quizImg from '../../../assets/images/quiz-app.JPG';
 import ecommerceImg from '../../../assets/images/ecommerce.JPG';
+import bundleSparesImg from '../../../assets/images/bundle-spares-screenshot.JPG'
 
 function Projects() {
   const projects = [
+    {
+      title: 'Bundle Spares',
+      description: 'Bundle Spares provides a unique service by offering spare keys for video games that users can claim.',
+      demoLink: 'http://bundlespares.com/',
+      repoLink: 'https://github.com/jeffrpar/bundle-spares',
+      image: bundleSparesImg,
+    },
     {
       title: 'Book Review App',
       description: 'Explore an extensive collection of books spanning diverse genres and written by talented authors.',
