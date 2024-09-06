@@ -13,8 +13,8 @@ function Footer() {
           <a href="https://www.linkedin.com/in/jeffrpar/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
           </a>
-          <p>© Jeff Parker. All rights reserved.</p>
         </div>
+        <span>© Jeff Parker. All rights reserved.</span>
       </div>
     </footer>
   );
