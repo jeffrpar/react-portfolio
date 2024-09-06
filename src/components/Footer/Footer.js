@@ -14,7 +14,7 @@ function Footer() {
             <FaLinkedin /> LinkedIn
           </a>
         </div>
-        <span>© Jeff Parker. All rights reserved.</span>
+        <p>© Jeff Parker. All rights reserved.</p>
       </div>
     </footer>
   );
