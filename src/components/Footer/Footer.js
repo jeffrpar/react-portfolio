@@ -13,9 +13,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/jeffrpar/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> LinkedIn
           </a>
-          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-            <FaTwitter /> Twitter {/*I don't have a third platform*/}
-          </a>
+          <p>© Jeff Parker. All rights reserved.</p>
         </div>
       </div>
     </footer>
